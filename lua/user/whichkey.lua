@@ -94,8 +94,8 @@ local mappings = {
   },
   ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
   ["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
-  ["l"] = {  "<cmd>tabnext<CR>", "Next Tab" },
-  ["h"] = {  "<cmd>tabNext<CR>", "Previous Tab" },
+  ["l"] = {  "<cmd>:BufferLineCycleNext<CR>", "Next Tab" },
+  ["h"] = {  "<cmd>:BufferLineCyclePrev<CR>", "Previous Tab" },
 
   [" "] = {
     name = "Super",
