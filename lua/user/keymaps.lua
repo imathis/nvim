@@ -43,8 +43,8 @@ keymap("v", "\r", '"ry:%s/<C-r>r/', opts)
 -- keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 
 -- Common code actions
-keymap("n", "<C-g>", "<cmd>lua vim.lsp.buf.formatting()<cr>", opts) -- format code
-keymap("n", "<C-g>", "<cmd>lua vim.lsp.buf.formatting()<cr>", opts) -- format code
+keymap("n", "<C-g>", "<cmd>lua vim.lsp.buf.format()<cr>", opts)       -- format code
+keymap("n", "<C-g>", "<cmd>lua vim.lsp.buf.format()<cr>", opts)       -- format code
 
 -- Insert --
 -- Press jk fast to enter
@@ -73,4 +73,3 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 -- keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
-
