@@ -20,4 +20,4 @@ require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
 require "user.surround"
-require "user.copilot"
+

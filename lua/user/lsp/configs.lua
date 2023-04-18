@@ -5,7 +5,7 @@ end
 
 local lspconfig = require("lspconfig")
 
-local servers = { "sumneko_lua", "eslint", "graphql", "html", "css" }
+local servers = { "lua_ls", "eslint", "graphql", "html" }
 
 lsp_installer.setup {
 	ensure_installed = servers
